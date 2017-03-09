@@ -13,7 +13,7 @@ Run:
 
 Set the classpath using
 Main.class lies under the same folder, where other classes lies
-1. set CLASSPATH=classes
+1. set CLASSPATH=classes -- Global class path (not prefered, might affect other java application)
 
 If you Main.class lies somewhere else
 1. java -cp classes/ application.Main
