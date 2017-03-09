@@ -6,6 +6,9 @@ javac -d classes fileName (src/main/java/helper/Helper.java) : moves the class f
 
 javac -cp classes/ src/main/java/helper/Main.java (gives the classpath to find Helper class)
 
+COmpiling using jar:
+javac -cp ":/path to your jar" <path to you Main> (Do not forget :)
+
 
 Run:
 
@@ -20,4 +23,4 @@ If you Main.class lies somewhere else
 
 Jar file
 1. jar cvf helper.jar classes/helper/Helper.class
-2. java -cp classes;helper.jar application.Main
+2. java -cp ":<path to your jar file> application.Main[one above the main class package]
